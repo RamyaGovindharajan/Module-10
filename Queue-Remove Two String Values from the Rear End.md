@@ -21,8 +21,37 @@ To write a Python program to:
 6. Display the updated list.
 
 ##  Program:
-Add Code Here
+
+```
+# Queue - Remove Two String Values from Rear End
+
+q = []
+
+# Step 2: Read number of elements
+n = int(input("Enter number of strings: "))
+
+# Step 3: Input strings into queue
+for i in range(n):
+    value = input("Enter string: ")
+    q.append(value)
+
+# Step 4 & 5: Remove last two elements (rear end)
+if len(q) >= 2:
+    q.pop()
+    q.pop()
+else:
+    print("Not enough elements to remove two items.")
+
+# Step 6: Display updated list
+print("Updated list:", q)
+
+```
 
 ### Output:
 
+<img width="392" height="252" alt="image" src="https://github.com/user-attachments/assets/4d8bde05-63e1-43ff-b6df-7e4356db75e4" />
+
+
 ## Result:
+
+The program is exucted successfully and the output is verified
